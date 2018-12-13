@@ -1,0 +1,57 @@
+/*Home Page Cascading Style Sheet*/
+
+body {
+	font-family: Berlin Sans FB, sans-serif;
+    
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px;
+    background-color: #281200;
+}
+#nav_menu {
+    font-size: 250%;
+    position: relative;
+}
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 1em 0em;
+    text-decoration: none;
+    background-color: #b55200;
+    color: #281200;
+    font-weight: bold;
+}
+#nav_menu a.current {
+	color: #ffc73b;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+main {
+	clear: left;
+}
+footer {
+	background-color: #b55200;
+	clear: both;
+}
+footer p{
+    font-size: 100;
+	text-align: center;
+	color: #ffc73b;
+	padding: 1em 0;
+}
